@@ -12,7 +12,6 @@ public class PalindromeMain {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         StringBuffer word;
-        String s1, s2;
         System.out.println(MESSAGE_ENTER_WORD);
         word = new StringBuffer(entrada.nextLine());
 
